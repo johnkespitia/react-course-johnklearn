@@ -1,9 +1,12 @@
 import React from 'react'
+
 import logoImage from '../images/logo.jpg';
-import im404 from '../images/404.png';
+import wellcomeImage from '../images/logo.svg';
 import './styles/Home.css';
 import { Link } from 'react-router-dom';
-class NotFound extends React.Component{
+
+
+class Home extends React.Component{
     render(){
         return (
             <div className="Home">
@@ -16,15 +19,15 @@ class NotFound extends React.Component{
                         className="img-fluid mb-2"
                     />
 
-                    <h1>404 Page Not Found</h1>
-                    <Link className="btn btn-primary" to="/">
-                        Return
+                    <h1>Badge Management System</h1>
+                    <Link className="btn btn-primary" to="/badges">
+                        Start
                     </Link>
                     </div>
 
                     <div className="Home__col d-none d-md-block col-md-8">
                     <img
-                        src={im404}
+                        src={wellcomeImage}
                         alt="Astronauts"
                         className="img-fluid p-4"
                     />
@@ -32,8 +35,8 @@ class NotFound extends React.Component{
                 </div>
                 </div>
             </div>
-        );
+        )
     }
 }
 
-export default NotFound;
+export default Home;
