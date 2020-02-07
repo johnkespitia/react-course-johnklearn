@@ -1,10 +1,9 @@
 import React from 'react';
 import confLogo from '../images/logo.jpg'
 import './styles/BadgeDetails.css'
-import PageLoading from '../components/PageLoading'
-import PageError from '../components/PageError'
 import Badge from '../components/Badge';
 import { Link } from 'react-router-dom';
+import DeleteBadgeModal from '../components/DeleteBadgeModal';
 
 class BadgesDetails extends React.Component{
     render(){
@@ -39,8 +38,14 @@ class BadgesDetails extends React.Component{
                         <div className="col">
                             <h2>Actions</h2>
                             <div>
-                                <div><Link className="btn btn-success mb-4" to={`/badges/${badge.id}/edit`}>Edit</Link> </div>
-                                <div><button className="btn btn-danger" >Delete</button> </div>
+                                <div>
+                                    <Link className="btn btn-success mb-4" to={`/badges/${badge.id}/edit`}>Edit</Link> 
+                                </div>
+                                <div>
+                                    <button className="btn btn-danger" onClick={this.props.onOpenModal} >Delete</button> 
+                                    <DeleteBadgeModal isOpen={this.props.modalIsOpen} onCloseModal={this.props.onCloseModal} 
+                                    onDeleteBadge={this.props.onDeleteBadge} />
+                                </div>
                             </div>
                         </div>
                     </div>

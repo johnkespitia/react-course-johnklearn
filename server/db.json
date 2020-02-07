@@ -1,24 +1,6 @@
 {
   "badges": [
     {
-      "id": "250fe715-88d4-4c18-95e7-62a6a097803a",
-      "firstName": "Zoe",
-      "lastName": "Grant",
-      "email": "ZoeGrant@yahoo.com",
-      "jobTitle": "Corporate Branding Administrative",
-      "twitter": "ZoeGrant05512-2019",
-      "avatarUrl": "https://www.gravatar.com/avatar/84f7eaf418c2554491c7485053fb80a9?d=identicon"
-    },
-    {
-      "id": "22330587-c700-4d00-911d-91de63db1f42",
-      "firstName": "Dustin",
-      "lastName": "Stehr",
-      "email": "Lue.Funk@hotmail.com",
-      "jobTitle": "Legacy Infrastructure Consultant",
-      "twitter": "DustinStehr77585-9157",
-      "avatarUrl": "https://www.gravatar.com/avatar/272e74beaee600c8ab957ddee8444495?d=identicon"
-    },
-    {
       "id": "f1183526-aff1-46da-8bfb-976563c6f696",
       "firstName": "Karlee",
       "lastName": "Satterfield",
@@ -46,23 +28,6 @@
       "avatarUrl": "https://www.gravatar.com/avatar/00e35de53a06a655fe5b6ac8b96bdb84?d=identicon"
     },
     {
-      "jobTitle": "sdf",
-      "firstname": "asasas",
-      "lastName": "rtyrty",
-      "email": "admin@dafiti.cl",
-      "twitter": "rtyrty",
-      "id": "d56FzcA"
-    },
-    {
-      "jobTitle": "asdasd",
-      "firstname": "qwqw",
-      "lastName": "asas",
-      "email": "admin@dafiti.cl",
-      "twitter": "ddesxxt",
-      "avatarUrl": "https://www.gravatar.com/avatar/4d9a6a2c6619da22d7942b09871bfa6d?d=identicon",
-      "id": "YZxtQ7A"
-    },
-    {
       "jobTitle": "Super Dog",
       "firstname": "Snoopy",
       "lastName": "Doger",
@@ -70,15 +35,6 @@
       "twitter": "superDog",
       "avatarUrl": "https://www.gravatar.com/avatar/4fdf138d141edc15c5b8b85149489de8?d=identicon",
       "id": "YMootIO"
-    },
-    {
-      "jobTitle": "tester",
-      "firstName": "Jon",
-      "lastName": "Marian",
-      "email": "tester@der.com",
-      "twitter": "testerder",
-      "avatarUrl": "https://www.gravatar.com/avatar/08d6785dc7d2325661219c9783e80693?d=identicon",
-      "id": "4hcDEH0"
     }
   ]
 }
